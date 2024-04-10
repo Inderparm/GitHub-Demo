@@ -15,6 +15,8 @@ class LoginDemo {
 
     private static void placeComponents(JPanel panel) {
         panel.setLayout(null);
+        // Set background color
+        panel.setBackground(Color.LIGHT_GREY); // Choose your desired background color
 
         JLabel userLabel = new JLabel("Email:");
         userLabel.setBounds(10, 20, 80, 25);
